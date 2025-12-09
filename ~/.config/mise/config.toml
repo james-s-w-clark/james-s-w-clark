@@ -3,6 +3,11 @@
 # 2. mise install
 # 3. mise tasks run finit
 
+[settings]
+
+idiomatic_version_file_enable_tools = ['node']
+
+
 [tools]
 ## languges/sdks
 node = "20.11.1"
@@ -53,5 +58,5 @@ run = [
 ]
 
 [settings]
-disable_tools = ["mill"] # ignore .mill-version
+disable_tools = ["mill"] # ignore .mill-version; prefer millw
 experimental = true
